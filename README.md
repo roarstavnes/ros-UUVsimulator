@@ -11,16 +11,22 @@
 # Quick start
 The implementations are using ROS melodic and OpenCV.
 
-> roslaunch uuv_gazebo_worlds ocean_waves.launch
-
-> roslaunch rexrov2_description upload_rexrov2.launch
-
-> roslaunch rexrov2_gazebo start_demo_pid_controller.launch teleop_on:=true joy_id:=0
+```bash tab="lunar"
+roslaunch uuv_gazebo_worlds ocean_waves.launch
+```
+```bash tab="lunar"
+roslaunch rexrov2_description upload_rexrov2.launch
+```
+```bash tab="lunar"
+roslaunch rexrov2_gazebo start_demo_pid_controller.launch teleop_on:=true joy_id:=0
+```
 
 Then open two terminals at the python folder and run
-> python marker_detection_raw_ros.py
-
-> python kf_attitude_ros.py
-
+```bash tab="lunar"
+python marker_detection_raw_ros.py
+```
+```bash tab="lunar"
+python kf_attitude_ros.py
+```
 
 
