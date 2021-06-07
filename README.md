@@ -1,14 +1,19 @@
-# ros-UUVsimulator
-The UUV simulator is developed by 
-```
-@inproceedings{Manhaes_2016,
-	doi = {10.1109/oceans.2016.7761080},
-	url = {https://doi.org/10.1109%2Foceans.2016.7761080},
-	year = 2016,
-	month = {sep},
-	publisher = {{IEEE}},
-	author = {Musa Morena Marcusso Manh{\~{a}}es and Sebastian A. Scherer and Martin Voss and Luiz Ricardo Douat and Thomas Rauschenbach},
-	title = {{UUV} Simulator: A Gazebo-based package for underwater intervention and multi-robot simulation},
-	booktitle = {{OCEANS} 2016 {MTS}/{IEEE} Monterey}
-}
-```
+# ros-UUVsimulator for vision-aided inertial navigation using ArUco markers
+
+> Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
+
+> Link to the [documentation page](https://uuvsimulator.github.io/packages/uuv_simulator/intro/) 
+
+# Quick start
+The implementations are using ROS melodic and OpenCV.
+
+> roslaunch uuv_gazebo_worlds ocean_waves.launch
+> roslaunch rexrov2_description upload_rexrov2.launch
+> roslaunch rexrov2_gazebo start_demo_pid_controller.launch teleop_on:=true joy_id:=0
+
+Then open two terminals at the python folder and run
+> python marker_detection_raw_ros.py
+> python kf_attitude_ros.py
+
+
+> Link to the video simulation [here](https://www.youtube.com/watch?v=VIgVS2FLsy0)
