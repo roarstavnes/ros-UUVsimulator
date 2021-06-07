@@ -2,9 +2,11 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+> Link to the [documentation page](https://uuvsimulator.github.io/packages/uuv_simulator/intro/) 
+
 > Link to the video of the simulation [here](https://www.youtube.com/watch?v=VIgVS2FLsy0)
 
-> Link to the [documentation page](https://uuvsimulator.github.io/packages/uuv_simulator/intro/) 
+
 
 # Quick start
 The implementations are using ROS melodic and OpenCV.
