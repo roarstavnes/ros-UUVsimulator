@@ -1,4 +1,4 @@
-# ros-UUVsimulator for vision-aided inertial navigation using ArUco markers
+# UUVsimulator for vision-aided inertial navigation using ArUco markers
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
