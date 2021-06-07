@@ -1,23 +1,3 @@
-#import rclpy
-#import threading
-#import os
-#import math
-
-#import numpy as np
-#from std_msgs.msg import String
-#from rclpy.node import Node
-#from kf_attitude.kinematics import *
-#from rcl_interfaces.msg import ParameterType
-#from sensor_msgs.msg import Imu, MagneticField
-#from nav_msgs.msg import Odometry
-#from geometry_msgs.msg import PoseArray
-#from concurrent.futures import ThreadPoolExecutor
-#from rclpy.executors import Executor
-#from rclpy.exceptions import ParameterNotDeclaredException
-#####################################################################
-
-
-
 import rospy
 import cv2
 import numpy as np
