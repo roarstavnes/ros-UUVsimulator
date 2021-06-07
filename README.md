@@ -9,7 +9,7 @@
 
 
 # Quick start
-The implementations are using ROS melodic and OpenCV.
+The implementations requires ROS and OpenCV.
 
 ```bash tab="lunar"
 roslaunch uuv_gazebo_worlds ocean_waves.launch
